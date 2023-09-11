@@ -1,0 +1,39 @@
+h1:hover {
+    font-size: 200%
+}
+
+button {
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 2px 4px 8px 0 darkgrey;
+}
+
+footer button {
+    color: white;
+    background-color: green;
+}
+
+footer button:hover {
+    color: black;
+    background-color: greenyellow;
+}
+
+.call-to-action {
+    background-color: red;
+}
+
+.call-to-action:hover {
+    background-color: indianred;
+}
+
+#education {
+    margin-bottom: 24;
+}
+
+#education p {
+    color: deeppink;
+}
+
+#education li:nth-of-type(2) {
+    background-color: blue;
+}

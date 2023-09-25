@@ -117,3 +117,32 @@ for (let j = 1; j < 101; j++){
 if((5 % 0) > 0){
     console.log("success")
 }
+/*
+let symbol = ""
+for (let j = 0; j < 8; j++){
+    for (let i = 0; i < j; i++){
+        symbol += "#"
+    }
+    symbol += "\n"
+}
+console.log(symbol)
+
+
+let symbol2 = ""
+for (let j = 0; j < 8; j++){
+    for (let i = 8; i > j; i--){
+        symbol2 += "#"
+    }
+    symbol2 += "\n"
+}
+console.log(symbol2)
+*/
+let symbol3 = ""
+
+for (let j = 0; j < 8; j++){
+    for (let i = 0; i < j; i){
+        symbol3[i] = " "
+    }
+    symbol3 += "\n"
+}
+console.log(symbol3)

@@ -164,7 +164,7 @@ logString("hello",6);
 //let input = prompt("Please enter a valid CPR number:","123456-1234")
 
 function cprCheck(cpr){
-    const regex = new RegExp("[0-9]{6}-[0-9]{4}");
+    const regex = new RegExp("\\d{6}-[0-9]{4}");
     return regex.test(cpr);
 }
 

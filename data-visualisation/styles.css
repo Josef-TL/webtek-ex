@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container div{
+    overflow: hidden;
+    max-height: 100%;
+
+
+}
+.container div img{
+   /*width: 100%;
+    height: auto;
+    */
+    width: fit-content;
+    height: 100%;
+}
+
+.one {
+    width: 15.6%;
+}
+
+.two {
+    width: 13.3%;
+}
+.three {
+    width: 7.6%;
+}
+.four {
+    width: 4.9%;
+}
+.five {
+    width: 3.8%;
+}
+.six {
+    width: 3.4%;
+}
+.seven {
+    width: 3.1%;
+}
+.eight {
+    width: 3%;
+}
+.nine {
+    width: 2.8%;
+}
+.ten {
+    max-width: 2.5%;
+}
+
+.else {
+}

@@ -1,0 +1,12 @@
+ul {
+    list-style: none;
+    margin-top: 12px;
+}
+
+li {
+    margin-bottom: 12px;
+    padding: 6px 10px;
+}
+form {
+    margin: 12px 12px;
+}

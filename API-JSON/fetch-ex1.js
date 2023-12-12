@@ -25,6 +25,13 @@ function filterByTitle (data,input){
 
 }
 
+/*
+Filter: AC
+ord: "ABC"
+
+
+ */
+
 function addMoviesToHTML (data) {
     const mainList = document.querySelector(".movie-list")
     mainList.innerHTML = "";
